@@ -4,11 +4,15 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
-  --first-color: #DB00FF;
+  --main-text-color: #DB00FF;
   --accent-color: #FF0070;
+  --main-block-color: #FF0070;
+  --block-color: #F1B2CE;
   --font: 'IBM Plex mono';
   --text-size: 18px;
   --text-bold: 700;
   --text-lite: 400;
-  --black: #000000;
+  --header-block-text: #000028;
+  --decoration-element: #FF0070;
+  --decoration-element-hover: #FF007066;
 }
