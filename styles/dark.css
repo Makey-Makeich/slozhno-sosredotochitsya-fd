@@ -3,6 +3,7 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+
 :root.theme-dark {
   --bg-image: url("../images/cover-image-dark.png");
   --main-text-color: #DB00FF;
