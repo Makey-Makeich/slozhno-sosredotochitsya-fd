@@ -6,38 +6,38 @@
 
 :root.theme-light {
   --bg-image: url("../images/cover-image-light.png");
-  --accent-color: #FF8DCB;
+  --accent-color: #ff8dcb;
   --decoration-element: #353430;
-  --main-text-color: #FFC2E6;
+  --main-text-color: #ffc2e6;
   --block-color: #353430;
   --main-block-color: #353430;
   --header-block-text: #353430;
-  --decoration-element-hover: #32312D66;
+  --decoration-element-hover: #32312d66;
+  --decoretion-word-border: #353430;
 
   .rec-title {
-    display: none;
+      display: none;
   }
-
 }
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+/* сохраните этот селектор в приведённом виде.
+Так стили написанные ниже будут иметь больший вес,
+чем стили в медиазапросе предпочтений пользователя
+*/
 
 @media (perfers-color-shame: light) {
   :root {
-    --bg-image: url("../images/cover-image-light.png");
-    --accent-color:  #FF8DCB;
-    --decoration-element: #353430;
-    --main-text-color: #FFC2E6;
-    --block-color: #353430;
-    --main-block-color: #353430;
-    --header-block-text: #353430;
-    --decoration-element-hover: #32312D66;
-}
+      --bg-image: url("../images/cover-image-light.png");
+      --accent-color: #ff8dcb;
+      --decoration-element: #353430;
+      --main-text-color: #ffc2e6;
+      --block-color: #353430;
+      --main-block-color: #353430;
+      --header-block-text: #353430;
+      --decoration-element-hover: #32312d66;
+      --decoretion-word-border: #353430;
+  }
 
-.rec-title {
-  display: none;
-}
-
+  .rec-title {
+      display: none;
+  }
 }
