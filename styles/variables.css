@@ -4,15 +4,16 @@
 */
 :root {
   --bg-image: url(../images/cover-image-dark.png);
-  --main-text-color: #DB00FF;
-  --accent-color: #FF0070;
-  --main-block-color: #FF0070;
-  --block-color: #F1B2CE;
-  --font: 'IBM Plex mono';
+  --main-text-color: #db00ff;
+  --accent-color: #ff0070;
+  --main-block-color: #ff0070;
+  --block-color: #f1b2ce;
+  --font: "IBM Plex mono";
   --text-size: 18px;
   --text-bold: 700;
   --text-lite: 400;
   --header-block-text: #000028;
-  --decoration-element: #FF0070;
-  --decoration-element-hover: #FF007066;
+  --decoration-element: #ff0070;
+  --decoration-element-hover: #ff007066;
+  --decoretion-word-border: #ffffff;
 }
